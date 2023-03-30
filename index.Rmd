@@ -1,8 +1,14 @@
 ---
 title: 'CodeVid Studio'
+subtitle: 'Coding Videos with Multimodal Instruction'
 author: "Kevin Buffardi"
 date: "April 1, 2023"
-output: ioslides_presentation
+output:
+  ioslides_presentation:
+    fig_width: 16
+    fig_height: 9
+    widescreen: true
+    self_contained: false
 always_allow_html: true
 ---
 
@@ -10,74 +16,125 @@ always_allow_html: true
 knitr::opts_chunk$set(echo = FALSE)
 ```
         
-# CodeVid Studio: Coding Videos with Multimodal Instruction
-
-by Kevin Buffardi
-
-
 ## Presentation
 
-This is a brief summary of *CodeVid Studio: Coding Videos with Multimodal Instruction*, presented at the [Consortium for Computing Sciences in Colleges: Southwest](https://ccsc.org/southwestern/2023/) in Irvine, California and published in the *Journal for Computing Sciences in Colleges*.
+Presented at the [Consortium for Computing Sciences in Colleges: Southwest](https://ccsc.org/southwestern/2023/) in Irvine, California and published in the *Journal for Computing Sciences in Colleges*.
 
-This presentation page is available at [learnbyfailure.com/Codevid](https://learnbyfailure.com/CodeVid/) and its source is available on [GitHub](https://github.com/kbuffardi/CodeVid/).
+This presentation is accessible at [learnbyfailure.com/Codevid](https://learnbyfailure.com/CodeVid/) 
+and its source is available on [GitHub](https://github.com/kbuffardi/CodeVid/).
 
 ## Issues in Teaching Coding Skills
 
-Slides: summarize common presentation formats
-
+* **Increasing demand for online learning**
+    * Covid-19 Pandemic "Zoom University"
+    * Massive Open Online Courses (MOOC)
+    * Online degrees
+    
+* **Challenges teaching coding online**
+    * Trade-offs between live coding, illustrations, gestures/emotions, etc.
 
 ## Multimedia Learning Principles
   
-Show principles with good/bad examples
+[!["e-Learning and the Science of Instruction" book cover](clark-mayer-cover.jpg)](https://www.wiley.com/en-us/e+Learning+and+the+Science+of+Instruction:+Proven+Guidelines+for+Consumers+and+Designers+of+Multimedia+Learning,+4th+Edition-p-9781119158660)
 
-## Common Practices
+* Evidence-based Principles of Multimedia and e-Learning
 
-Demonstrate common practices via Zoom or in-classroom
+## Cognitive Load and Learning
 
-# CodeVid Studio
+* Amount of demand on brain's *working memory*
+* Distributing presentation across multiple modes of communication *decreases* cognitive load ([Mousavi et al.-1995](https://psycnet.apa.org/doi/10.1037/0022-0663.87.2.319))
+* Multimedia and e-Learning Principles (Clark \& Mayer):
+    * **Multimedia Principle**: {text + graphics} > {text}
+    * **Contiguity Principle**: text + graphics should be in close spatial and temporal proximity
+    * **Modality Principle**: audio + graphics beneficial
+* Students tend to reflect positive emotions witnessed from instructor ([Lawson and Mayer-2022](https://doi.org/10.1016/j.cedpsych.2022.102080))
 
-Demonstrate innovation
+## Common "Zoom University" Presentation
 
-## Studio arrangement
+* Screen share
+* Camera share
+    - Picture-in-picture
+    
+    <img alt="Picture-in-picture webcam in the corner of screen share" src="picture-in-picture.jpg" width="66%" />
 
-Show how the studio is designed
+## Lightboard Presentation
 
-## Implementation
+* Transparent markerboard with video camera
+    - Flipped image for natural writing/drawing
+    <img alt="'Lightboard' transparent markerboard with camera-facing presenter" src="lightboard.jpg" width="66%" />
 
-Show the technical implementation, using chroma key
+## Integrated Presentation
 
-# Evaluation
+* [HEERF funding for educational resiliency](https://www2.ed.gov/about/offices/list/ope/arp.html)
+    - Integrating lightboard with screen sharing
+    <img alt="CodeVid recording integrating lightboard and screen sharing" src="codevid.jpg" width="66%" />
 
-Describe usability study
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_GWFVNvcEOs?start=312" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+## CodeVid Studio In-Person
+
+<img alt="CodeVid Studio lightboard behind a camera" src="CodeVid-Studio-Photo.png" width="66%" />
+
+## CodeVid Studio Design
+
+<img alt="CodeVid Studio layout" src="CodeVid-Studio-Diagram.png" width="66%" />
+
+## Usability Study
+
+* As part of [Codewit.us](https://codewit.us/) usability study
+* Computer Science student participants (n=10)
+    - CS1 passed, enrolled in CS2
+* Protocol
+    - Interview on experience/attitudes on CS1 homework/reading material
+    - Intervention: tutorial on recursion
+      - Randomly assigned intervention: picture-in-picture (n=5) or CodeVid Studio (n=5)
+      - Independent programming challenge on recursion
+    - Debrief: attitudes and feedback on experience
 
 ## Results
 
-Comparison between CodeVid and talking-head-in-a-box
+* **"The video feature was helpful."** *(1 strongly disagree to 5 strongly agree)*
+    - **CodeVid Studio**: M=5, s.d.=0
+    - **Picture-in-Picture**: M=4.8, s.d.=0.2
+    
+* **"What did you like least about the website"**
+    - **CodeVid Studio**: *(nothing video-related)*
+    - **Picture-in-Picture**:  the video would be better with
+visuals/graphics to illustrate the topic
 
 ## Conclusions
 
-* Advantages
-* Building on a budget
+* Novel presentation of text + graphics + presenter for teaching coding skills
+    - Theoretical advantages based on evidence-based principles
+* Pilot videos integrated into [Codewit.us beta release](https://codewit.us/)
+* Positive formative feedback from usability study
 
+**Future Work**
 
-# Full Paper
+* Experimental study of cognitive load and learning effectiveness
+* Platforming perspectives from historically marginalized groups, relating coding to their lives
+    - ["Coding Community" supported by California Office of Planning and Research, Learning Labs](https://calearninglab.org/project/coding-community-inclusive-space-for-programming-tutorials-and-adaptive-learning/)
 
-The full paper will be available soon.
 
 <!--
-[ACM Digital library](https://doi.org/10.1145/3502718.3524778)
+# Full Paper
+
+The full paper will be available soon via *Journal for Computing Sciences in Colleges*.
+
+
+[ACM Digital library](https://url/)
 
 To cite this paper, use the following reference in your bibliography:
 
-> Kevin Buffardi and Richert Wang. 2022. Integrating Videos with Programming
-Practice. In Proceedings of the 27th ACM Conference on Innovation and Technology in Computer Science Education Vol 1 (ITiCSE 2022), July 8–13, 2022, Dublin, Ireland. ACM, New York, NY, USA, 7 pages. https://doi.org/10.1145/3502718.3524778
+> Citation TBD
 
 Or import the following *BibTeX* reference:
 
 ```
-@inproceedings{10.1145/3502718.3524778,
-author = {Buffardi, Kevin and Wang, Richert}, title = {Integrating Videos with Programming Practice},year = {2022}, isbn = {9781450392013}, publisher = {Association for Computing Machinery}, address = {New York, NY, USA}, url = {https://doi.org/10.1145/3502718.3524778}, doi = {10.1145/3502718.3524778}, abstract = {There is an increasing variety of tools available to support students outside of the classroom as they learn how to program. However, broadening participation in computer science will also require these tools to reinforce inclusivity, diversity, and equity. To address these needs, two Hispanic-Serving Institutions, California State University, Chico (Chico State) and University of California, Santa Barbara (UCSB), are collaborating to produce video tutorials featuring students from historically marginalized communities. In these videos, students demonstrate uses of programming concepts in contexts that relate to their lives and interests. This experience report describes the development of the videos and associated programming practice problems. In a mixed-method observational study (n=188) of CS1 courses at the two universities, we investigated students' engagement with the videos and practice problems. Preliminary findings revealed that when the videos and practice problems were provided as separate links, students tended to watch the videos but not engage in the practice platform. Consequently, this paper also describes the development of Codewit.us, which integrates video lessons with an adaptive drill-and-practice programming interface. We found that when presented with the integrated interface, students were more likely to engage with practice in tandem with watching videos (instead of just watching videos without practice, as previously observed). The paper also describes thematic analysis of students' qualitative feedback on the videos and practice problems.}, booktitle = {Proceedings of the 27th ACM Conference on on Innovation and Technology in Computer Science Education Vol. 1}, pages = {241–247}, numpages = {7}, keywords = {computer science education, broadening participation, adaptive learning system, drill-and-practice, programming, cs1, coding, codewit.us, elearning, video}, location = {Dublin, Ireland},
-series = {ITiCSE '22} }
+@inproceedings{TBD}
 ```
 
 -->
