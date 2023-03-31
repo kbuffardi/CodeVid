@@ -45,8 +45,10 @@ and its source is available on [GitHub](https://github.com/kbuffardi/CodeVid/).
 * Distributing presentation across multiple modes of communication *decreases* cognitive load ([Mousavi et al.-1995](https://psycnet.apa.org/doi/10.1037/0022-0663.87.2.319))
 * Multimedia and e-Learning Principles (Clark \& Mayer):
     * **Multimedia Principle**: {text + graphics} > {text}
-    * **Contiguity Principle**: text + graphics should be in close spatial and temporal proximity
-    * **Modality Principle**: audio + graphics beneficial
+    * **Signaling Principle**: signal most important information to pay attention to
+    * **Contiguity Principle**: related information should be presented in close spatial and temporal proximity
+    * **Modality Principle**: {audio + graphics} > {text + graphics}
+    
 * Students tend to reflect positive emotions witnessed from instructor ([Lawson and Mayer-2022](https://doi.org/10.1016/j.cedpsych.2022.102080))
 
 ## Common "Zoom University" Presentation
@@ -63,10 +65,10 @@ and its source is available on [GitHub](https://github.com/kbuffardi/CodeVid/).
     - Flipped image for natural writing/drawing
     <img alt="'Lightboard' transparent markerboard with camera-facing presenter" src="lightboard.jpg" width="66%" />
 
-## Integrated Presentation
+## Innovating the "CodeVid Studio"
 
 * [HEERF funding for educational resiliency](https://www2.ed.gov/about/offices/list/ope/arp.html)
-    - Integrating lightboard with screen sharing
+    - Integrating lightboard with IDE screen sharing
     <img alt="CodeVid recording integrating lightboard and screen sharing" src="codevid.jpg" width="66%" />
 
 ---
