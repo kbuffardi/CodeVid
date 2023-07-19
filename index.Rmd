@@ -121,22 +121,24 @@ visuals/graphics to illustrate the topic
     - ["Coding Community" supported by California Office of Planning and Research, Learning Labs](https://calearninglab.org/project/coding-community-inclusive-space-for-programming-tutorials-and-adaptive-learning/)
 
 
-<!--
-# Full Paper
+## Full Paper
 
-The full paper will be available soon via *Journal for Computing Sciences in Colleges*.
-
-
-[ACM Digital library](https://url/)
+The [full paper is available online via ACM Digital Library](https://dl.acm.org/doi/10.5555/3606442.3606445)
 
 To cite this paper, use the following reference in your bibliography:
 
-> Citation TBD
+> Kevin Buffardi. 2023. CodeVid Studio: Coding Videos with Multimodal Instruction. J. Comput. Sci. Coll. 38, 10 (April 2023), 26–34.
 
 Or import the following *BibTeX* reference:
 
 ```
-@inproceedings{TBD}
+@article{buffardi2023codevid,
+author = {Buffardi, Kevin},
+title = {CodeVid Studio: Coding Videos with Multimodal Instruction},
+year = {2023}, issue_date = {April 2023},
+publisher = {Consortium for Computing Sciences in Colleges},
+address = {Evansville, IN, USA},
+volume = {38}, number = {10}, issn = {1937-4771},
+month = {jun}, pages = {26–34}, numpages = {9}
+}
 ```
-
--->
